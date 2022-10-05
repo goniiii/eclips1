@@ -17,7 +17,20 @@ public class ChildExample {
 		Parent parent2 = new Parent();
 		parent2.method1();
 		parent2.method2(); // Parent에 정의된 method2 가 불린다 
+		
+		System.out.println((parent2 instanceof Child));
+		System.out.println((parent instanceof Child));
+		
+		if(parent2 instanceof Child) {
+			Child child3 = (Child)parent2;
+			child3.method3();
+		}else {
+			parent2.method2();
+		}
 
+//		Child child3 = (Child)parent2;
+//		child3.method3();
+// 		ClassCast 에러 
 	}
 
 }
