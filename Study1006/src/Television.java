@@ -22,5 +22,12 @@ public class Television implements RemoteControl {
 			}
 			System.out.println("현재 TV 볼륨: " + this.volume);
 		}
+
+		@Override
+		public void showId() {
+			// TODO Auto-generated method stub
+			System.out.println(id);
+			
+		}
 	}
 
