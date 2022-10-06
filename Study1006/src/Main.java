@@ -6,7 +6,7 @@ public class Main {
 		USD usd = new USD(100.50, "달러");
 		EUR eur = new EUR(260.87, "유로");
 		JPY jpy = new JPY(1400, "엔");
-
+		
 // 부모 클래스를 통한 그룹화
 		Currency[] currencies = { krw, usd, eur, jpy };
 
