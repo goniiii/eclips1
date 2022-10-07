@@ -29,6 +29,15 @@ public class Home {
 		}
 	}
 	
+	public void removeElcApp() {
+		//어떤걸 지울지? 1인덱스? 
+		//스마트 로봇 청소기 
+		//id 로 fd001 찾아서 지우고 했는데 지금은 id 없다 
+		//instanceof smartConnectable
+		//shMachine.remove 지워지는 기능 추가로 들어가야하는데 뭘 지울건지 생각해보기
+		
+	}
+	
 	public void runSmartMachine() {
 		System.out.println("runSmartMachine");
 		shMachine.runMachine();
