@@ -22,4 +22,10 @@ public class Audio implements RemoteControl {
 			}
 			System.out.println("현재 Audio 볼륨: " + this.volume);
 		}
+
+		@Override
+		public void showId() {
+			// TODO Auto-generated method stub
+			
+		}
 	}

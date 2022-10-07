@@ -26,7 +26,7 @@ public class Television implements RemoteControl {
 		@Override
 		public void showId() {
 			// TODO Auto-generated method stub
-			System.out.println(id);
+//			System.out.println(id);
 			
 		}
 	}

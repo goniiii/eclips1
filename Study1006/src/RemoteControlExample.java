@@ -32,7 +32,7 @@ public class RemoteControlExample {
 		
 		myClass2.rc.showId(); // 원래 기본값도 텔레비전인데 굳이 rc에 텔리비전을 넣어야하나 ? 필요함 -> 다른텔레비전일수있어서 
 		Television myTv = new Television();
-		myTv.id = 30;
+//		myTv.id = 30;
 		// 어떤 텔레비전이 들어올 지 모르니까 new Televison하면 새로운 텔레비전이고 별도의 객체 같은 텔레비전이라도 
 		
 		
