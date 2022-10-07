@@ -1,4 +1,8 @@
 
+// 블루투스 스피커 is a 가전 true
+// 스마트 블루투스 스피커 is a 블루투스 스피커 true
+// 스마트 블루투스 스피커 is a 가전 true
+
 public class SmartBluetoothSpeaker extends BluetoothSpeaker implements SmartConnectable {
 	boolean isConnected;
 

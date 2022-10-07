@@ -22,7 +22,16 @@ public class Home {
 	}
 	
 	public void addElcApp(ElcApp elcApp) {
-		elcApps.add(elcApp);
+		elcApps.add(elcApp); 
+		if(elcApp instanceof SmartConnectable) {
+//			System.out.println("이것은 스마트 연결 되는 가전");
+			shMachine.addMachine((SmartConnectable)elcApp);
+		}
+	}
+	
+	public void runSmartMachine() {
+		System.out.println("runSmartMachine");
+		shMachine.runMachine();
 	}
 	
 	public void showElcAppList() {
