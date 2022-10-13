@@ -58,7 +58,7 @@ public class Al_main {
 //		if(name.equals("x")) exit
 //		alStudent.add(name);
 //		name=scan.nextLine();
-//		
+
 		
 
 			   while (!name.equals("x")) {
